@@ -1,0 +1,128 @@
+body {
+  text-align: center;
+  background-color: #D2B48C;
+  font-family: "Open Sans", sans-serif;
+  
+}
+h1{
+  font-size: 36px;
+  color: grey;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5); /* Subtle shadow for depth */
+  margin-bottom: 20px;
+}
+h2{
+  display: inline;
+  font-size: 24px;
+  background-image: linear-gradient(to right, #9a9a9a, #666666); /* Gradient effect with shades of grey */
+  color: white;
+  padding: 10px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2); /* Box shadow */
+  margin: 10px 20px;
+}
+#black-piece{
+  height: 25px;
+  width: 25px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#white-piece{
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.current-player {
+  color: red;
+}
+.winner{
+  background-color: gold;
+}
+#board-container {
+  margin-top: 30px;
+  display: grid;
+  /* display: flex; */
+  /* justify-content: center;  Only works with display: flex*/
+  grid-template-columns: repeat(15, 50px);
+  grid-template-rows: repeat(15, 50px);
+  /* gap: 2px; */
+  background-color: #CD853F;
+  position: relative;
+  border: 8px solid black;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 750px;
+  margin-inline: auto; /* moves to center*/
+}
+
+/* #board-container:last-child .dot{
+  border: 2px solid green;
+} */
+
+
+.dot {
+  width: 100%;
+  height: 100%;
+  
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  
+  
+}
+
+
+.vertical-line,
+.horizontal-line {
+  /* Width of lines */
+  /* height: 100%; Height of lines */
+  background-color: #000; /* Color of lines */
+  position: absolute;
+  z-index: 1;
+}
+
+.vertical-line {
+    width: 2px; 
+  height: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.horizontal-line {
+  width: 100%;
+  height: 2px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/* Enhanced Restart button styling with grey base background */
+#restart {
+  background-color: #808080; /* Grey base color */
+  background-image: linear-gradient(to right, #9a9a9a, #666666); /* Gradient effect with shades of grey */
+  border: none;
+  border-radius: 8px; /* Rounded corners */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Box shadow for depth */
+}
+
+#restart:hover {
+  background-image: linear-gradient(to right, #666666, #9a9a9a); /* Inverted gradient on hover */
+  color: #f0f0f0;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3); /* Larger shadow on hover */
+  transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+
