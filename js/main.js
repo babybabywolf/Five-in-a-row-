@@ -206,7 +206,7 @@ function renderIndicator() {
   if (winner !== null) {
     const winnerEl = document.getElementById(winner);
     winnerEl.classList.add("winner");
-    winnerEl.innerText = `winner is player${winner}`;
+    winnerEl.innerText = `WINNER IS PLAYER ${winner}`;
   }
 }
 //show game messages (turn, result)
