@@ -12,7 +12,8 @@ The winner is the first player to line up five of their stones horizontally, ver
 ## Screenshot(s)
 ![DefaultBoard](/image/defaultboard.png)
 ![RenderBoard](/image/renderboard.png)
-![Findawinner](/image/find a winner.png)
+![FindAWinner](/image/find_a_winner.png)
+
 
 
 ## Technologies Used
