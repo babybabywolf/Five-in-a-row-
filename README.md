@@ -2,7 +2,7 @@
 
 
 ## Description
-Five in a Row is an engaging and strategic game where players aim to align five consecutive pieces on a grid. It is traditional played with Go pieces (black and white stones) on a go board. The game combines simplicity and tactical depth, making it enjoyable for players of all ages. Historically, it's a variant of the ancient game of Gomoku and has been enjoyed worldwide for centuries.
+Five in a Row is an engaging and strategic game where players aim to align five consecutive pieces on a grid. It is traditionally played with Go pieces (black and white stones) on a go board. The game combines simplicity and tactical depth, making it enjoyable for players of all ages. Historically, it's a variant of the ancient game of Gomoku and has been enjoyed worldwide for centuries.
 
 rules: 
 Black plays first. 
